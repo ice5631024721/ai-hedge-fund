@@ -169,8 +169,8 @@ if __name__ == "__main__":
     #     ),
     # ).ask()
 
-    choices = ['valuation_analyst', 'technical_analyst', 'fundamentals_analyst', 'sentiment_analyst','warren_buffett','cathie_wood']
-
+    # choices = ['valuation_analyst', 'technical_analyst', 'fundamentals_analyst', 'sentiment_analyst','warren_buffett','cathie_wood']
+    choices = ['cathie_wood']
     if not choices:
         print("\n\nInterrupt received. Exiting...")
         sys.exit(0)
@@ -199,8 +199,8 @@ if __name__ == "__main__":
         #     ),
         # ).ask()
 
-        model_name = 'qwen3:14b'
-
+        # model_name = 'qwen3:14b'
+        model_name = 'deepseek-r1:8b'
         if not model_name:
             print("\n\nInterrupt received. Exiting...")
             sys.exit(0)
